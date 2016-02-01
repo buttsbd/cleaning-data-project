@@ -1,5 +1,20 @@
 This repository contains my code for the Coursera "Getting and Cleaning Data" course project.
 
+Data Source -
+
+The source of the original dataset is located here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones The data is derived from the "Human Activity Recognition Using Smartphones Data Set."
+
+Code Features -
+
+The code completes the following steps:
+
+1) Merges the training and test sets
+2) Extracts only the mean and standard deviation for each measurement
+3) Describes the activities with a name
+4) Labels the data set with appropriate activity names
+5) Generates a tidy data set containing averages for each variable, subject, and activity
+
+data.table package is required
 See below the README for the original dataset:
 
 ==================================================================
@@ -8,7 +23,7 @@ Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Universit‡ degli Studi di Genova.
+DITEN - Universit√† degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
